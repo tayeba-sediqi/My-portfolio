@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tayeba Portfolio</title>
+<link rel="icon" href="image/(205).jpg">
+
+<style>
+    html{
+    scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
+}
+
+/* Navbar */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#020617;
+
+}
+
+nav h1{
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-size:18px;
+transition: transform 1.3s ease;
+}
+nav a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    transform: scale(2.2);
+}
+
+/* Hero */
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+text-align:center;
+padding:100px 20px;
+}
+
+.hero img{
+width:150px;
+height:150px;
+border-radius:50%;
+border:4px solid #38bdf8;
+}
+
+.hero h2{
+font-size:40px;
+margin-top:20px;
+}
+
+.hero p{
+color:#94a3b8;
+font-size:18px;
+}
+
+.btn{
+margin-top:20px;
+padding:12px 30px;
+background:#38bdf8;
+border:none;
+border-radius:6px;
+color:black;
+font-weight:bold;
+cursor:pointer;
+}
+
+
+
+section{
+padding:80px 100px;
+}
+
+.title{
+font-size:32px;
+margin-bottom:40px;
+text-align:center;
+color:#38bdf8;
+}
+
+
+
+.skills{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.skill{
+background:#1e293b;
+padding:20px 30px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.skill:hover{
+transform:translateY(-8px);
+background:#334155;
+}
+
+.projects{
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+width:250px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+
+
+.contact{
+text-align:center;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+margin-top:40px;
+}
+.work-experience{
+display:flex;
+justify-content:center;
+}
+
+.work-card{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+max-width:500px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<h1>Tayeba Sediqi</h1>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+</nav>
+
+
+<section id="home" class="hero">
+
+<img src="green.jpg" alt="profile">
+
+<h2>Hi, I'm Tayeba (Sediqi)</h2>
+
+<p>Aspiring Network Engineer</p>
+
+<a href="#projects"><button class="btn">View My Work</button></a>
+
+</section>
+
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<p style="text-align:center; max-width:700px; margin:auto;">
+Hello! I'm Tayeba. I am an IT enthusiast with astrong interest in computer networking and technology. i have basic knowledge of programming and experience in teaching windows and microsoft office application. i engoy learning how computer networks work and solving teachnical problems. my goal is to continue studing information technology and become a professional Network Engineer in the future. i also want to use my knowledge to help improve technological infrastruchtureespecially in my country where skilled IT & Networking professionals are highly needed.
+</p>
+
+</section>
+
+
+<section id="skills">
+
+<h2 class="title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill">HTML5</div>
+<div class="skill">CSS</div>
+<div class="skill">TailWindCSS</div>
+<div class="skill">JavaScript(basic)</div>
+<div class="skill">python(basic)</div>
+<div class="skill">SQL(in prograss)</div>
+<div class="skill">Git</div>
+<div class="skill">Word</div>
+<div class="skill">Excel</div>
+<div class="skill">Powerpoint</div>
+<div class="skill">Windows 11</div>
+<div class="skill">Tailoring/Sewing</div>
+<div class="skill">Document Design and Formatting using MS word</div>
+
+</div>
+
+</section>
+
+
+<section id="projects">
+
+<h2 class="title">Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>Student Management System</h3>
+<p>Developed a small system where student can be added to a table upon registration and deleted as needed.</p>
+</div>
+
+
+<div class="card">
+<h3>To Do List</h3>
+<p>A dynamic To-Do List website designed to manage daily tasks efficiently. It records the exact completion time of tasks.</p>
+</div>
+
+<div class="card">
+<h3>Color flipper</h3>
+<p>Developed an interactive button that changes the background color randomly when clicked.</p>
+</div>
+
+<div class="card">
+<h3>Quiz Page</h3>
+<p>An  interaction quiz web site that allows users to answer multiple-choice question & receive a final score. The Project demonstrates fundmental Web development skills including DOM manipulation, event handling and dynamic content updates using JS.</p>
+</div>
+
+<div class="card">
+<h3> Students Results Calculates</h3>
+<p>A web tool that automatically calculates student's average score and percentage from subject marks ,helping simplify the evuation of academic performance.</p>
+</div>
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>A Personal website built to showcase my projects, skills, and experience in web development. demonstrates my ability to design and implement interaction web pages using HTML, CSS, and JavaScript.</p>
+</div>
+
+</div>
+
+</section >
+
+<section id="experience">
+
+<h2 class="title">Work Experience</h2>
+
+<div class="work-experience">
+
+<div class="work-card">
+
+<h3>Travel Agency – Dr. Sherzad</h3>
+
+<p>
+   Project Title: Airline Ticket Booking & IT Management – Team Project<br><br>
+
+Company / Organization: Dr. Sherzad Travel & Tourism Company, Kabul, Afghanistan<br><br>
+
+Duration: February 2023 – January 2025<br><br>
+
+Project Description:<br>
+Worked in a travel and tourism company to assist customers in booking airline tickets and managing travel arrangements. The system helped organize customer data, track flight reservations, and support office IT tasks.<br><br>
+
+My Role:
+Managed and coordinated the ticket booking process.
+Entered and maintained customer information in the booking system.
+Assisted colleagues with basic IT support, ensuring smooth operation of office computers.
+Ensured accurate flight reservations and helped resolve booking issues for clients.<br><br>
+
+Skills Gained:
+<ul>
+    <li>IT system management and basic troubleshooting</li>
+    <li>Customer service and communication</li>
+    <li>Data entry and database management</li>
+    <li>Team coordination and project responsibility</li>
+</ul>
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="contact" class="contact">
+
+<h2 class="title">Contact</h2>
+
+<p>Email : tayebasediqi05@gmail.com</p>
+<p>Whatsapp : +93 789763705</p>
+<p> Telegram: <a href="https://t.me/tayeba_5" target="_blank" style="color:#38bdf8;">@tayeba_5</a></p>
+<p>GitHub : 
+<a href="https://github.com/" target="_blank" style="color:#38bdf8;">
+Visit my GitHub
+</a>
+</p>
+
+</section>
+
+
+<footer>
+
+<p>Design & Developed by Tayeba Sediqi</p>
+
+</footer>
+
+</body>
+</html>
